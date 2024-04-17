@@ -64,3 +64,5 @@ C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\obj\
 C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.pdb
 C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\obj\Debug\net6.0\RunGroupWebApp.genruntimeconfig.cache
 C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\obj\Debug\net6.0\ref\RunGroupWebApp.dll
+C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\bin\Debug\net6.0\CloudinaryDotNet.dll
+C:\Users\Hrsto\OneDrive\Radna površina\AspNetCoreTodoVjezba\RunGroupWebApp\bin\Debug\net6.0\Newtonsoft.Json.dll
