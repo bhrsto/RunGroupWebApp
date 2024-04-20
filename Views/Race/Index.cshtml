@@ -16,7 +16,7 @@
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="btn-group">
                           <a asp-route-id="@item.Id" asp-action="Detail" asp-controller="Race"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
-                          @*<button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>*@
+                          <a asp-route-id="@item.Id" asp-action="Edit" asp-controller="Race"><button type="button" class="btn btn-sm btn-outline-secondary">Edit</button></a>
                         </div>
                         <small class="text-body-secondary">@item.RaceCategory</small>
                       </div>
