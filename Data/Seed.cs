@@ -114,7 +114,7 @@ namespace RunGroupWebApp.Data
             }
         }
 
-       /* public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
+        public static async Task SeedUsersAndRolesAsync(IApplicationBuilder applicationBuilder)
         {
             using (var serviceScope = applicationBuilder.ApplicationServices.CreateScope())
             {
@@ -128,21 +128,21 @@ namespace RunGroupWebApp.Data
 
                 //Users
                 var userManager = serviceScope.ServiceProvider.GetRequiredService<UserManager<AppUser>>();
-                string adminUserEmail = "teddysmithdeveloper@gmail.com";
+                string adminUserEmail = "branimir.hrsto@gmail.com";
 
                 var adminUser = await userManager.FindByEmailAsync(adminUserEmail);
                 if (adminUser == null)
                 {
                     var newAdminUser = new AppUser()
                     {
-                        UserName = "teddysmithdev",
+                        UserName = "bhrsto",
                         Email = adminUserEmail,
                         EmailConfirmed = true,
                         Address = new Address()
                         {
-                            Street = "123 Main St",
-                            City = "Charlotte",
-                            State = "NC"
+                            Street = "Ulica bana Jelačića",
+                            City = "Zaprešić",
+                            State = "Zagrebčka županija"
                         }
                     };
                     await userManager.CreateAsync(newAdminUser, "Coding@1234?");
@@ -161,15 +161,15 @@ namespace RunGroupWebApp.Data
                         EmailConfirmed = true,
                         Address = new Address()
                         {
-                            Street = "123 Main St",
-                            City = "Charlotte",
-                            State = "NC"
+                            Street = "Ulica Baltazara Adama Krcelica",
+                            City = "Zaprešić",
+                            State = "Zagrebčka županija"
                         }
                     };
                     await userManager.CreateAsync(newAppUser, "Coding@1234?");
                     await userManager.AddToRoleAsync(newAppUser, UserRoles.User);
                 }
             }
-        }*/
+        }
     }
 }
